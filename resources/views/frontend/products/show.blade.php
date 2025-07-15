@@ -173,10 +173,6 @@
 					<span><a href="{{ url('products?category='. $category->slug) }}">{{ $category->name }}</a></span>
 				@endforeach
             </div>
-            <div class="meta-item">
-              <label>Tags:</label>
-              <span>biker, black, bomber, leather</span>
-            </div>
           </div>
         </div>
       </div>

@@ -137,7 +137,6 @@
           <div class="product-single__addtional-info mt-2">
             {{ \Illuminate\Support\Str::limit(strip_tags($product->description), 80) }}
           </div>
-
           <div class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
             <a product-id="{{ $product->id }}" product-type="{{ $product->type }}" product-slug="{{ $product->slug }}" href="#" class="add-to-card btn-link btn-link_lg me-4 text-uppercase fw-medium" data-aside="cartDrawer" title="Add To Cart">
               Add To Cart
