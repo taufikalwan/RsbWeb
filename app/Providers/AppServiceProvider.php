@@ -5,7 +5,7 @@ namespace App\Providers;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 use App\Models\Wishlist;
-use App\Observers\WishlistObserver;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -27,6 +27,5 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Paginator::useBootstrap();
-        Wishlist::observe(WishlistObserver::class);
     }
 }
