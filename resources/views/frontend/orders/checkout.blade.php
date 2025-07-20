@@ -147,7 +147,7 @@
 						<div class="col-md-6">
 							<div class="form-floating my-3">
 							<input class="form-control" name="customer_phone" value="{{ old('customer_phone') }}">
-							<label for="phone">Nomer Telephone *</label>
+							<label for="phone">Nomor HP *</label>
 							<span class="text-danger"></span>
 							</div>
 						</div>

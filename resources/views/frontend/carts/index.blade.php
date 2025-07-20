@@ -49,7 +49,7 @@
 							data-productId="{{ $item->rowId }}"
 							value="{{ $item->qty }}"
 						>
-							@foreach(range(1, $item->model->productInventory->qty) as $qty)
+							@foreach(range(1, $item->model->ProductInventory->qty) as $qty)
 								<option {{ $qty == $item->qty ? 'selected' : null }} value="{{ $qty }}">{{ $qty }}</option>
 							@endforeach
 						</select>

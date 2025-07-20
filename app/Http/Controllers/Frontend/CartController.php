@@ -73,7 +73,7 @@ class CartController extends Controller
 		$itemQuantity =  $this->_getItemQuantity($params['qty']);
 
 		try {
-			if ($product->productInventory->qty < $itemQuantity) {
+			if ($product->ProductInventory->qty < $itemQuantity) {
 				throw new \App\Exceptions\OutOfStockException('The product '. $product->sku .' is out of stock');
 			}
 		} catch (\Throwable $th) {

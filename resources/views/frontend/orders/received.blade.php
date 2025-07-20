@@ -50,7 +50,6 @@
               </tbody>
             </table>
           </div>
-
 		   <div class="checkout__totals-wrapper">
 			<div class="checkout__totals">
 				<div>
@@ -61,7 +60,7 @@
         <img src="{{ asset('images/bca-logo.png') }}" alt="Logo Bank BCA" class="bank-logo">
         <div>
             <span class="label">Nomor Rekening</span><br>
-            <span>Bank BCA - 123456-x-999 - John Doe</span>
+            <span>Bank BCA - 12345325566 -  RidhoPryandika</span>
         </div>
     </li>
 </ul>
@@ -92,7 +91,6 @@
 }
 </style>
 				</div>
-
 					<form action="{{ route('pay.process') }}" enctype="multipart/form-data" method="post" class="mt-4">
 						@csrf
 						<input type="hidden" name="order_id" value="{{ $order->id }}" class="form-control">
