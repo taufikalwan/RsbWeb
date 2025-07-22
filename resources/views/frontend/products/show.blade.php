@@ -97,7 +97,7 @@
 							@if ($product->type == 'configurable')
 								<div class="quick-view-select mb-5">
 									<div class="select-option-part">
-										<label>Size*</label>
+										<label>Ukuran*</label>
                                         <select name="size" class="select form-control" id="" style="appearance: auto !important;">
                                             @foreach($sizes as $size)
                                                 <option value="{{ $size }}">{{ $size }}</option>
@@ -114,7 +114,6 @@
 									</div>
 								</div>
 							@endif
-
               <div class="product-single__addtocart">
               <div class="qty-control position-relative">
                 <input type="number" name="qty" value="1" min="1" class="qty-control__number text-center">

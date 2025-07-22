@@ -20,7 +20,10 @@
             <label>Tanggal Mulai</label>
             <input type="date" name="start_date" class="form-control" required>
         </div>
-
+         <div class="form-group mt-3">
+            <label>Kode Kupon</label>
+            <input type="date" name="start_date" class="form-control" required>
+        </div>
         <div class="form-group mt-3">
             <label>Tanggal Selesai</label>
             <input type="date" name="end_date" class="form-control" required>
