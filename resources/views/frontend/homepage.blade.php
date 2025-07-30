@@ -109,7 +109,14 @@
       </section>
       <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
       <section class="products-grid container">
-        <h2 class="section-title text-center mb-3 pb-xl-3 mb-xl-4">Produk Terbaik</h2>
+       <h2 class="section-title text-center mb-3 pb-xl-3 mb-xl-4">
+            Rekomendasi Untuk Mu
+            @if(auth()->check())
+                {{ auth()->user()->first_name }}
+            @else
+                Guest
+            @endif
+            </h2>
         <div class="row">
   @foreach($products as $product)
     <div class="col-6 col-md-4 col-lg-3">

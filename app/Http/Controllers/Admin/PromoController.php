@@ -57,4 +57,8 @@ class PromoController extends Controller
 
         return redirect()->route('admin.promos.index')->with('success', 'Promo berhasil dihapus!');
     }
+
+    public function codecupon(Promo)
+
+
 }

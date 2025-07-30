@@ -412,8 +412,6 @@
     @endauth
   </ul>
 </nav>
-
-
         <div class="header-tools d-flex align-items-center">
           <div class="header-tools__item hover-container">
             <div class="js-hover__open position-relative">
